@@ -28,7 +28,7 @@
     "alwaysOnTop": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6502}",
     "disableAnimations": false,
     "experimental.rendering.software": false,
     "launchMode": "default",
@@ -36,12 +36,21 @@
         "defaults": {
             "useAcrylic": true,
             "acrylicOpacity": 0.5,
+            "cursorHeight": 20,
+            "cursorColor": "#FFF",
+            "cursorShape": "vintage",
             "unfocusedAppearance": {
                 "useAcrylic": true,
                 "acrylicOpacity": 0.1
             }
         },
         "list": [
+            {
+                "commandline": "C:\\\\Windows\\\\System32\\\\cmd.exe /k C:\\\\tools\\\\Cmder\\\\vendor\\\\init.bat",
+                "icon": "C:\\\\tools\\\\Cmder\\\\Cmder.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6502}",
+                "name": "Cmder.exe"
+            },
             {
                 "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
