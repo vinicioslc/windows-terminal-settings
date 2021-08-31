@@ -35,10 +35,10 @@
     "profiles": {
         "defaults": {
             "useAcrylic": true,
-            "acrylicOpacity": 0.29999999999999999,
-            "backgroundImageOpacity": 0.29999999999999999,
+            "acrylicOpacity": 0.5,
             "unfocusedAppearance": {
-                "backgroundImageOpacity": 0.29999999999999999
+                "useAcrylic": true,
+                "acrylicOpacity": 0.1
             }
         },
         "list": [
